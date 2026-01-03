@@ -139,7 +139,7 @@
                         <li><a href="{{ route('public.pengrajin') }}" class="hover:text-white hover:underline decoration-coklat-gold underline-offset-4 transition">Direktori Pengrajin</a></li>
                         <li><a href="{{ route('public.about') }}" class="hover:text-white hover:underline decoration-coklat-gold underline-offset-4 transition">Tentang Kami</a></li>
                         @guest
-                            <li><a href="{{ route('login') }}" class="hover:text-white hover:underline decoration-coklat-gold underline-offset-4 transition">Login Admin</a></li>
+                            <li><a href="{{ route('login') }}" class="hover:text-white hover:underline decoration-coklat-gold underline-offset-4 transition">Masuk / Daftar</a></li>
                         @endguest
                     </ul>
                 </div>
